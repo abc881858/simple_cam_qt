@@ -39,11 +39,6 @@ void MainWindow::requestComplete(Request *request)
         }
 
         std::cout << std::endl;
-
-//        std::unique_ptr<Image> image = Image::fromFrameBuffer(buffer, Image::MapMode::ReadOnly);
-//        libcamera::Span<const uint8_t> data = image->data(0);
-//        QImage qImage(data.data(), 640, 480, QImage::Format_RGB888);
-//        ui->label->setPixmap(QPixmap::fromImage(qImage));
     }
 
 
